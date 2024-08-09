@@ -227,6 +227,26 @@ laptop h4{
     color: rgb(71, 71, 186, 0.804);
 }
 
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    background-color: #91b5d3;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+.all-right{
+    text-align: center;
+    background-color: #91b5d3;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #292626;
+}
+
 
 /* Small Screen */
 @media(max-width: 100px){
@@ -301,11 +321,11 @@ laptop h4{
     text-align: center;
     font-size: 15px;
 }
-}
+
 
 
  /* Mobile */
-  /* #mob-heading{
+  #mob-heading{
     margin-top: 80px;
     margin-bottom: 10px;
     padding: 10px 20px;
@@ -325,8 +345,8 @@ laptop h4{
 }
 .Mobiles span p{
     font-size: medium;
-}  */
-
+} 
+}
 /* Mobile Screen */
 @media(max-width: 400px) {
     nav{
@@ -384,7 +404,7 @@ laptop h4{
     }
 
     /* Mobile  not Working 0n this code*/ 
-      /* #mob-heading{
+      #mob-heading{
         margin: 30px;
         margin-bottom: 0px;
         padding: 0 20px;
@@ -393,7 +413,7 @@ laptop h4{
      .Mobiles{
         grid-template-columns: 50% 50%;
         justify-content: space-around;
-    }  */
+    } 
 
     #laptop-heading{
         margin-top: 30px;
@@ -449,7 +469,21 @@ laptop h4{
         font-size: 2vh;
     }
 
+    /* Footer */
+   footer{
+    margin-top: 50px;
+   }
 
+   footer img{
+    width: 15px;
+    height: 15px;
+    padding: 8px;
+   }
+   .all-right{
+    font-size: 2vh;
+    padding-top: 5px;
+    padding-bottom: 10px;
+   }
 
 }   
 
