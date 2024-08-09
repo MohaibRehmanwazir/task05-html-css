@@ -195,6 +195,33 @@ laptop h4{
     padding-bottom: 15px;
 } 
 
+/* Smart Watch */
+#Watches-heading{
+    margin-top: 80px;
+    margin-left: 10px;
+    padding: 10px 20px;
+}
+.smart-watches{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;    
+}
+.smart-watches div{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #91b5d3;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    box-shadow: rgba(0, 0, 0, 0.43) 0px 5px 10px;
+}
+.smart-watches div img{
+    width: 200px;
+    height: 190px;
+}
+
 
 /* Small Screen */
 @media(max-width: 100px){
